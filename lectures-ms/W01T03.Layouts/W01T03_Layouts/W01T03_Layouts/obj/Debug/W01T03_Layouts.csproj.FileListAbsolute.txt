@@ -1,0 +1,16 @@
+C:\GitHub\Xamarin\lectures-ms\W01T03.Layouts\W01T03_Layouts\W01T03_Layouts\bin\Debug\W01T03_Layouts.dll
+C:\GitHub\Xamarin\lectures-ms\W01T03.Layouts\W01T03_Layouts\W01T03_Layouts\bin\Debug\W01T03_Layouts.pdb
+C:\GitHub\Xamarin\lectures-ms\W01T03.Layouts\W01T03_Layouts\W01T03_Layouts\bin\Debug\Xamarin.Forms.Core.dll
+C:\GitHub\Xamarin\lectures-ms\W01T03.Layouts\W01T03_Layouts\W01T03_Layouts\bin\Debug\Xamarin.Forms.Platform.dll
+C:\GitHub\Xamarin\lectures-ms\W01T03.Layouts\W01T03_Layouts\W01T03_Layouts\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\GitHub\Xamarin\lectures-ms\W01T03.Layouts\W01T03_Layouts\W01T03_Layouts\bin\Debug\Xamarin.Forms.Core.pdb
+C:\GitHub\Xamarin\lectures-ms\W01T03.Layouts\W01T03_Layouts\W01T03_Layouts\bin\Debug\Xamarin.Forms.Core.xml
+C:\GitHub\Xamarin\lectures-ms\W01T03.Layouts\W01T03_Layouts\W01T03_Layouts\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\GitHub\Xamarin\lectures-ms\W01T03.Layouts\W01T03_Layouts\W01T03_Layouts\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\GitHub\Xamarin\lectures-ms\W01T03.Layouts\W01T03_Layouts\W01T03_Layouts\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\GitHub\Xamarin\lectures-ms\W01T03.Layouts\W01T03_Layouts\W01T03_Layouts\obj\Debug\W01T03_Layouts.MainPage.xaml.g.cs
+C:\GitHub\Xamarin\lectures-ms\W01T03.Layouts\W01T03_Layouts\W01T03_Layouts\obj\Debug\W01T03_Layouts.App.xaml.g.cs
+C:\GitHub\Xamarin\lectures-ms\W01T03.Layouts\W01T03_Layouts\W01T03_Layouts\obj\Debug\W01T03_Layouts.MasterSayfalar.MyMenu.xaml.g.cs
+C:\GitHub\Xamarin\lectures-ms\W01T03.Layouts\W01T03_Layouts\W01T03_Layouts\obj\Debug\W01T03_Layouts.MasterSayfalar.MyDetail.xaml.g.cs
+C:\GitHub\Xamarin\lectures-ms\W01T03.Layouts\W01T03_Layouts\W01T03_Layouts\obj\Debug\W01T03_Layouts.dll
+C:\GitHub\Xamarin\lectures-ms\W01T03.Layouts\W01T03_Layouts\W01T03_Layouts\obj\Debug\W01T03_Layouts.pdb
