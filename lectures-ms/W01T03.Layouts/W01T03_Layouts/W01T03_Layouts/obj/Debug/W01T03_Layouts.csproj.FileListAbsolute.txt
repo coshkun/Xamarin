@@ -12,5 +12,6 @@ C:\GitHub\Xamarin\lectures-ms\W01T03.Layouts\W01T03_Layouts\W01T03_Layouts\obj\D
 C:\GitHub\Xamarin\lectures-ms\W01T03.Layouts\W01T03_Layouts\W01T03_Layouts\obj\Debug\W01T03_Layouts.App.xaml.g.cs
 C:\GitHub\Xamarin\lectures-ms\W01T03.Layouts\W01T03_Layouts\W01T03_Layouts\obj\Debug\W01T03_Layouts.MasterSayfalar.MyMenu.xaml.g.cs
 C:\GitHub\Xamarin\lectures-ms\W01T03.Layouts\W01T03_Layouts\W01T03_Layouts\obj\Debug\W01T03_Layouts.MasterSayfalar.MyDetail.xaml.g.cs
+C:\GitHub\Xamarin\lectures-ms\W01T03.Layouts\W01T03_Layouts\W01T03_Layouts\obj\Debug\W01T03_Layouts.Layouts.GridOrnek.xaml.g.cs
 C:\GitHub\Xamarin\lectures-ms\W01T03.Layouts\W01T03_Layouts\W01T03_Layouts\obj\Debug\W01T03_Layouts.dll
 C:\GitHub\Xamarin\lectures-ms\W01T03.Layouts\W01T03_Layouts\W01T03_Layouts\obj\Debug\W01T03_Layouts.pdb

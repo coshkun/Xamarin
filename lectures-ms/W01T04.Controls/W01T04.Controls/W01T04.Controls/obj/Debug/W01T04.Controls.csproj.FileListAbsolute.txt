@@ -1,0 +1,15 @@
+C:\GitHub\Xamarin\lectures-ms\W01T04.Controls\W01T04.Controls\W01T04.Controls\bin\Debug\W01T04.Controls.dll
+C:\GitHub\Xamarin\lectures-ms\W01T04.Controls\W01T04.Controls\W01T04.Controls\bin\Debug\W01T04.Controls.pdb
+C:\GitHub\Xamarin\lectures-ms\W01T04.Controls\W01T04.Controls\W01T04.Controls\bin\Debug\Xamarin.Forms.Core.dll
+C:\GitHub\Xamarin\lectures-ms\W01T04.Controls\W01T04.Controls\W01T04.Controls\bin\Debug\Xamarin.Forms.Platform.dll
+C:\GitHub\Xamarin\lectures-ms\W01T04.Controls\W01T04.Controls\W01T04.Controls\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\GitHub\Xamarin\lectures-ms\W01T04.Controls\W01T04.Controls\W01T04.Controls\bin\Debug\Xamarin.Forms.Core.pdb
+C:\GitHub\Xamarin\lectures-ms\W01T04.Controls\W01T04.Controls\W01T04.Controls\bin\Debug\Xamarin.Forms.Core.xml
+C:\GitHub\Xamarin\lectures-ms\W01T04.Controls\W01T04.Controls\W01T04.Controls\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\GitHub\Xamarin\lectures-ms\W01T04.Controls\W01T04.Controls\W01T04.Controls\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\GitHub\Xamarin\lectures-ms\W01T04.Controls\W01T04.Controls\W01T04.Controls\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\GitHub\Xamarin\lectures-ms\W01T04.Controls\W01T04.Controls\W01T04.Controls\obj\Debug\W01T04.Controls.MainPage.xaml.g.cs
+C:\GitHub\Xamarin\lectures-ms\W01T04.Controls\W01T04.Controls\W01T04.Controls\obj\Debug\W01T04.Controls.App.xaml.g.cs
+C:\GitHub\Xamarin\lectures-ms\W01T04.Controls\W01T04.Controls\W01T04.Controls\obj\Debug\W01T04.Controls.Views.ControlPage.xaml.g.cs
+C:\GitHub\Xamarin\lectures-ms\W01T04.Controls\W01T04.Controls\W01T04.Controls\obj\Debug\W01T04.Controls.dll
+C:\GitHub\Xamarin\lectures-ms\W01T04.Controls\W01T04.Controls\W01T04.Controls\obj\Debug\W01T04.Controls.pdb

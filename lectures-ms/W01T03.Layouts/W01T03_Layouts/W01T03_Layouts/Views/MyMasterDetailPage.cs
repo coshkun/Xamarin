@@ -11,6 +11,8 @@ namespace W01T03_Layouts.Views
     {
         public MyMasterDetailPage()
         {
+            Padding = new Thickness(0, Device.OS == TargetPlatform.iOS ? 20 :
+                                      (Device.OS == TargetPlatform.Android ? 35 : 0), 0, 0);
             Master = new MyMenu();
             Detail = new MyDetail();
         }

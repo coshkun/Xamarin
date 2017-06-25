@@ -38,10 +38,12 @@ C:\GitHub\Xamarin\lectures-ms\W01T03.Layouts\W01T03_Layouts\W01T03_Layouts.Andro
 C:\GitHub\Xamarin\lectures-ms\W01T03.Layouts\W01T03_Layouts\W01T03_Layouts.Android\obj\Debug\res\layout\tabbar.xml
 C:\GitHub\Xamarin\lectures-ms\W01T03.Layouts\W01T03_Layouts\W01T03_Layouts.Android\obj\Debug\res\layout\toolbar.xml
 C:\GitHub\Xamarin\lectures-ms\W01T03.Layouts\W01T03_Layouts\W01T03_Layouts.Android\obj\Debug\res\values\styles.xml
+C:\GitHub\Xamarin\lectures-ms\W01T03.Layouts\W01T03_Layouts\W01T03_Layouts.Android\obj\Debug\res\drawable\logo.png
+C:\GitHub\Xamarin\lectures-ms\W01T03.Layouts\W01T03_Layouts\W01T03_Layouts.Android\obj\Debug\res\drawable\menu.png
 C:\GitHub\Xamarin\lectures-ms\W01T03.Layouts\W01T03_Layouts\W01T03_Layouts.Android\obj\Debug\R.cs.flag
 C:\GitHub\Xamarin\lectures-ms\W01T03.Layouts\W01T03_Layouts\W01T03_Layouts.Android\obj\Debug\uploadflags.txt
-C:\GitHub\Xamarin\lectures-ms\W01T03.Layouts\W01T03_Layouts\W01T03_Layouts.Android\bin\Debug\W01T03_Layouts.dll.mdb
 C:\GitHub\Xamarin\lectures-ms\W01T03.Layouts\W01T03_Layouts\W01T03_Layouts.Android\bin\Debug\W01T03_Layouts.Android.dll.mdb
+C:\GitHub\Xamarin\lectures-ms\W01T03.Layouts\W01T03_Layouts\W01T03_Layouts.Android\bin\Debug\W01T03_Layouts.dll.mdb
 C:\GitHub\Xamarin\lectures-ms\W01T03.Layouts\W01T03_Layouts\W01T03_Layouts.Android\obj\Debug\android\assets\FormsViewGroup.dll.mdb
 C:\GitHub\Xamarin\lectures-ms\W01T03.Layouts\W01T03_Layouts\W01T03_Layouts.Android\obj\Debug\android\assets\W01T03_Layouts.Android.dll.mdb
 C:\GitHub\Xamarin\lectures-ms\W01T03.Layouts\W01T03_Layouts\W01T03_Layouts.Android\obj\Debug\android\assets\W01T03_Layouts.dll.mdb

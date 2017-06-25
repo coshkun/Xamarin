@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using W01T03_Layouts.Layouts;
 using W01T03_Layouts.Views;
 using Xamarin.Forms;
 
@@ -13,7 +14,7 @@ namespace W01T03_Layouts
         {
             InitializeComponent();
 
-            MainPage = new MyMasterDetailPage();
+            MainPage = new AbsoluteOrnek();
         }
 
         protected override void OnStart()
