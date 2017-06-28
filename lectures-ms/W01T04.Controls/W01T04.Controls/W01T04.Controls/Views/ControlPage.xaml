@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="W01T04.Controls.Views.ControlPage">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <ScrollView.Content>
+                <StackLayout>
+                    <Button x:Name="Button1" Text="Ben bir Düğmeyim" Clicked="Button1_Clicked" ></Button>
+                    <ActivityIndicator x:Name="ai_Gosterge" IsRunning="False"></ActivityIndicator>
+                    <Label Text="Doğum Tarihiniz:" />
+                    <DatePicker x:Name="myDatePicker" ></DatePicker>
+
+                    <Entry x:Name="txtUserName" FontAttributes="Italic" FontFamily="Helvetica" FontSize="16"
+                       HorizontalTextAlignment="Start" Placeholder="Enter your username, or Email adress"
+                       TextColor="DarkGray" Keyboard="Default"></Entry>
+
+                    <Entry x:Name="txtPassword" FontAttributes="Italic" FontFamily="Helvetica" FontSize="16"
+                       HorizontalTextAlignment="Start" Placeholder="Enter your password"
+                       TextColor="DarkGray" Keyboard="Numeric" IsPassword="True"></Entry>
+
+                    <Button x:Name="btnSubmit" Text="Giriş Yap" BackgroundColor="DarkBlue" TextColor="White" />
+                    <Editor x:Name="txtEditor" FontFamily="Helvetica Neu" FontSize="14" TextColor="DarkGray"
+                        FontAttributes="Italic" HeightRequest="150" />
+
+                    <Picker x:Name="myDropDown" Title="Seciniz.."  SelectedIndexChanged="myDropDown_SelectedIndexChanged">
+                        <Picker.Items>
+                            <x:String>Ankara</x:String>
+                            <x:String>İstanbul</x:String>
+                            <x:String>İzmir</x:String>
+                            <x:String>Zonguldak</x:String>
+                        </Picker.Items>
+                    </Picker>
+
+                    <ProgressBar x:Name="myProgress" Progress=".25" />
+                    <StackLayout Orientation="Horizontal">
+                        <Button x:Name="btnAzalt" Text="-" Clicked="btnAzalt_Clicked"/>
+                        <Button x:Name="btnArttir" Text="+" Clicked="btnArttir_Clicked" />
+                    </StackLayout>
+
+                    <!--Two-Way Binding Opration-->
+                    <Slider x:Name="mySlider" Minimum="0" Maximum="100" Value="50"></Slider>
+                    <Label BindingContext="{x:Reference mySlider}" Text="{Binding Value, StringFormat='{0:F0}'}"
+                        x:Name="lblSlide" FontSize="Large" HorizontalOptions="Center"/>
+
+                    <StackLayout Orientation="Horizontal">
+                        <Stepper x:Name="myStepper" Minimum="5" Maximum="100" Increment="5" ValueChanged="myStepper_ValueChanged" />
+                        <Label x:Name="lblStepper" Text="5" VerticalOptions="Center" />
+                        <Label Text=" adım ileri sayar.."  VerticalOptions="Center"/>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal" Padding="20">
+                        <Switch x:Name="mySwitch" IsToggled="False" Toggled="mySwitch_Toggled" HorizontalOptions="Start" />
+                        <Label x:Name="lblSwitch" Text="Abonelik Durumu" />
+                    </StackLayout>
+
+                    <TimePicker></TimePicker>
+                    
+                    
+                </StackLayout>
+            </ScrollView.Content>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="W01T04.Controls.Views.SpecialControlsPage">
+    
+    <ContentPage.Content>
+        <ScrollView>
+            <TableView Intent="Form">
+                <TableRoot>
+                    <TableSection Title="Table View Form Desing">
+                        <SwitchCell Text="Bu hücrenin text özelliği varmış, bayıldım." On="True" x:Name="mySwitch" OnChanged="mySwitch_OnChanged"></SwitchCell>
+                        <EntryCell Label="IP Adresinizi giriniz" Placeholder="162.168.1.1" Keyboard="Numeric" />
+                        <ImageCell ImageSource="minion.png" Text="Profil Resminiz"
+                                   Detail="minion.png" x:Name="imgProfile" Tapped="imgProfile_Tapped" />
+                        <TextCell Text="Başlıklı Metin Hücresi" Detail="Bu hücreler haber başlıkları ve altına özet.." />
+                        
+                        
+                    </TableSection>
+                </TableRoot>
+            </TableView>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
