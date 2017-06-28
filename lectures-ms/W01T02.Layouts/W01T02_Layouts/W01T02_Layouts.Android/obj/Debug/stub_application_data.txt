@@ -1,2 +1,0 @@
-android.app.Application
-com.companyname.W01T02_Layouts

@@ -1,2 +1,0 @@
-android.app.Application
-W01T04.Controls.Android
