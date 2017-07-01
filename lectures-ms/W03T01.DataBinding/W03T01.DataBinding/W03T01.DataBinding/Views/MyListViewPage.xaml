@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="W03T01.DataBinding.Views.MyListViewPage">
+
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Orientation="Vertical">
+                <ListView x:Name="lstUserList" ItemsSource="{Binding .}" ItemSelected="lstUserList_ItemSelected">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <!--This creates a custom template for every kind of controls-->
+                                <StackLayout Orientation="Horizontal">
+                                    <Image Source="{Binding ImageUrl}" HeightRequest="50" />
+                                    <Label Text="{Binding Name}" VerticalTextAlignment="Center" HorizontalOptions="FillAndExpand" />
+                                    <Button Text="Sil" HorizontalOptions="End" CommandParameter="{Binding Id}" Clicked="Button_Clicked" />
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
