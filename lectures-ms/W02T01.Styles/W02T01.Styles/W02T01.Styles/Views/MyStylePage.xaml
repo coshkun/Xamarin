@@ -19,7 +19,7 @@
             
         </ResourceDictionary>
     </ContentPage.Resources>-->
-    
+
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Welcome to Xamarin Forms!" Style="{ StaticResource LabelStyle }" />

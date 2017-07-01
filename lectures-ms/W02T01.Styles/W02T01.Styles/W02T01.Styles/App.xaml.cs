@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
+using W02T01.Styles.Views;
 using Xamarin.Forms;
 
 namespace W02T01.Styles
@@ -13,7 +13,7 @@ namespace W02T01.Styles
         {
             InitializeComponent();
 
-            MainPage = new W02T01.Styles.MainPage();
+            MainPage = new ThemePage();
         }
 
         protected override void OnStart()
