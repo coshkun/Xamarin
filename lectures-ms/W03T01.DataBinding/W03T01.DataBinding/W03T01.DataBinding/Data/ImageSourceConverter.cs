@@ -12,7 +12,7 @@ namespace W03T01.DataBinding.Data
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
-            return ImageSource.FromResource(" W03T01.DataBinding." + (value ?? ""));
+            return ImageSource.FromResource($"W03T01.DataBinding.Images.{(value ?? "")}");
         }
 
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)

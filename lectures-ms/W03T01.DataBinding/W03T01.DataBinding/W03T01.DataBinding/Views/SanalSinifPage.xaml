@@ -16,15 +16,56 @@
 
     <ContentPage.Content>
         <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
-            <ListView x:Name="lstMVA" ItemsSource="{Binding .}">
+
+            <SearchBar x:Name="txtSearch" Placeholder="Ders Ara.." PlaceholderColor="#999" 
+                       TextChanged="txtSearch_TextChanged"></SearchBar>
+            
+            <ListView x:Name="lstMVA" ItemsSource="{Binding .}"
+                      Footer="{Binding Count, Source={x:Static local:MVAFactory.MVAData} }"
+                      IsGroupingEnabled="True"
+                      GroupDisplayBinding="{Binding Key}"
+                      GroupShortNameBinding="{Binding Key}"
+                      CachingStrategy="RecycleElement"
+                      ItemSelected="lstMVA_ItemSelected"
+                      IsPullToRefreshEnabled="True"
+                      Refreshing="lstMVA_Refreshing">
+                
+                <ListView.Header>
+                    <ContentView Padding="0,5" BackgroundColor="#eee">
+                        <Label FontSize="Medium" TextColor="#333"
+                               Text="CC Sanal Eğitimler" 
+                               HorizontalTextAlignment="Center"
+                               VerticalOptions="Center"/>
+                    </ContentView>
+                </ListView.Header>
+                
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ImageCell Text="{Binding Title}" TextColor="#f46508"
                                    Detail="{Binding Description}" DetailColor="#333" 
                                    ImageSource="{Binding ImageUrl, 
-                                    Converter={StaticResource imageConverter}}"/>
+                                    Converter={StaticResource imageConverter}}">
+
+                            <ImageCell.ContextActions>
+                                <MenuItem Clicked="MenuItemGuncelle_Clicked" CommandParameter="{Binding Id}">Güncelle</MenuItem>
+                                <MenuItem IsDestructive="True">Sil</MenuItem>
+                            </ImageCell.ContextActions>
+                            
+                        </ImageCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
+
+                <ListView.FooterTemplate>
+                    <DataTemplate>
+                        <ContentView Padding="0,5,5,0">
+                            <Label FontSize="Medium" TextColor="#666"
+                                   VerticalTextAlignment="Center"
+                                   HorizontalTextAlignment="End"
+                                   Text="{Binding ., StringFormat='{0} makale var'}"/>
+                        </ContentView>
+                    </DataTemplate>
+                </ListView.FooterTemplate>
+                
             </ListView>
         </StackLayout>
     </ContentPage.Content>

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
+using W03T01.DataBinding.Views;
 using Xamarin.Forms;
 
 namespace W03T01.DataBinding
@@ -12,8 +12,9 @@ namespace W03T01.DataBinding
         public App()
         {
             InitializeComponent();
-
-            MainPage = new W03T01.DataBinding.MainPage();
+            //PushAsyc ile hata veren standart yazım biçimi:
+            //MainPage = new SanalSinifPage();
+            MainPage = new NavigationPage(new SanalSinifPage());
         }
 
         protected override void OnStart()

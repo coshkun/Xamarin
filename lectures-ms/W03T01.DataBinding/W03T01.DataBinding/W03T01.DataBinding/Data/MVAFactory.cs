@@ -4,6 +4,7 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using W03T01.DataBinding.Utility;
 
 namespace W03T01.DataBinding.Data
 {
@@ -19,6 +20,9 @@ namespace W03T01.DataBinding.Data
     public class MVAFactory
     {
         public static IList<MVA> MVAData { get; set; }
+        // public static IList<MVA> MVAGoupedData { get; set; }
+        public static int RefreshCount { get; set; } = 0;
+
 
         static MVAFactory()
         {
@@ -425,6 +429,34 @@ namespace W03T01.DataBinding.Data
                 }
 
             };
+
+            int i = 0;
+            foreach (MVA item in MVAData)
+            {
+                item.Id = i;
+                i++;
+            }
+        }
+
+        public static ObservableCollection<Grouping<string, MVA>> 
+            BindingWithGrouping(string SearchText = "")
+        {
+            var result = MVAData;
+            //var list = new ObservableCollection<Grouping<string, MVA>>(
+            //    result.OrderBy(c => c.Title).GroupBy(c => c.Title[0].ToString())
+            //    .Select(k => new Grouping<string, MVA>(k.Key, k))
+            //    );
+
+            if (!string.IsNullOrEmpty(SearchText) && SearchText.Length >= 3)
+                result = MVAData.Where(x => x.Title.ToLower().Contains(SearchText.ToLower())).ToList();
+
+            var list = new ObservableCollection<Grouping<string, MVA>>(
+            result.OrderBy(c => (RefreshCount % 2 == 0)? c.PublishDate.ToString() : c.Title)
+            .GroupBy(c => c.Title[0].ToString())
+            .Select(k => new Grouping<string, MVA>(k.Key, k))
+            );
+
+            return list;
         }
     }
 }
