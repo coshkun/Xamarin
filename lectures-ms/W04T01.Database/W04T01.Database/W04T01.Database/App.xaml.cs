@@ -10,12 +10,15 @@ namespace W04T01.Database
 {
     public partial class App : Application
     {
+        public static string DbName { get; set; } = "W04T01Database.db3";
+
         public App()
         {
             InitializeComponent();
             //MainPage = new W04T01.Database.MainPage();
-            string device = DependencyService.Get<IDeviceHelper>().GetDeviceName();
-            MainPage = new FirstPage(device);
+            //string device = DependencyService.Get<IDeviceHelper>().GetDeviceName();
+            //MainPage = new FirstPage(device);
+            MainPage = new ListPage();
         }
 
         protected override void OnStart()
